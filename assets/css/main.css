@@ -10,35 +10,61 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+<<<<<<< HEAD
   --default-color: #4a5650; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #14261d; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #2f7d5b; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+=======
+  --default-color: #3385ff; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #0d1f1a; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #1a75ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+>>>>>>> af414514da7d0c05add75b827a5c6202936ca0e0
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
+<<<<<<< HEAD
   --nav-color: rgba(255, 255, 255, 0.78);  /* The default color of the main navmenu links */
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #4a5650; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #2f7d5b; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+=======
+  --nav-color: rgba(255, 255, 255, 0.6);  /* The default color of the main navmenu links */
+  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #3385ff; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #1a75ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+>>>>>>> af414514da7d0c05add75b827a5c6202936ca0e0
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
+<<<<<<< HEAD
   --background-color: #f6f3ec;
+=======
+  --background-color: #f1f6f5;
+>>>>>>> af414514da7d0c05add75b827a5c6202936ca0e0
   --surface-color: #ffffff;
 }
 
 .dark-background {
+<<<<<<< HEAD
   --background-color: #1b3a2d;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #244636;
+=======
+  --background-color: #1a75ff;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #2e2b28;
+>>>>>>> af414514da7d0c05add75b827a5c6202936ca0e0
   --contrast-color: #ffffff;
 }
 
@@ -133,7 +159,11 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
+<<<<<<< HEAD
   --background-color: #24503c;
+=======
+  --background-color: #66a3ff;
+>>>>>>> af414514da7d0c05add75b827a5c6202936ca0e0
   --heading-color: #ffffff;
   color: var(--default-color);
   transition: all 0.5s;
@@ -1624,7 +1654,11 @@ section,
   left: 0;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   background-color: rgba(47, 125, 91, 0.85);
+=======
+  background-color: rgba(54, 144, 231, 0.85);
+>>>>>>> af414514da7d0c05add75b827a5c6202936ca0e0
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4776,6 +4810,7 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+<<<<<<< HEAD
 }
 
 /*--------------------------------------------------------------
@@ -4873,3 +4908,6 @@ section,
     padding: 28px 20px;
   }
 }
+=======
+}
+>>>>>>> af414514da7d0c05add75b827a5c6202936ca0e0
